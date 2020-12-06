@@ -1264,7 +1264,7 @@
 <VARIABLE name="friction=0.9" send="0" osc_target="0" osc_trigger="1" osc_message="/track8Container/tr8morphFader/friction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/track8Container/tr8morphFader/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
-<WINDOW class="Text" text="tr8morphFaderHd" x="0" y="-2" width="90" height="27" id="3" state="241" group="0" font="tahoma,16,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="32768" content="MORPH">
+<WINDOW class="Text" text="tr8morphFaderHd" x="0" y="-2" width="90" height="27" id="3" state="241" group="0" font="tahoma,14,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="32768" content="MORPH">
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/track8Container/tr8morphFaderHd/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="Text" text="tr8snapshotHd" x="99" y="25" width="79" height="38" id="11" state="241" group="0" font="tahoma,15,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="4999295" content="Snapshot">
