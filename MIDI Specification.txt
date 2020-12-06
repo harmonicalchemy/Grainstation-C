@@ -1,4 +1,17 @@
-MIDI Specification
+## -*- mode: sh -*-
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## MIDI-Specification.txt
+##
+## MIDI Specification List for "Grainstation-C"
+## Csound Granulation Synthesis project...
+##
+## Changes/Corrections to Original File:
+##
+##   Some typo (copy/paste) errors were fixed
+##   Added shell script mode file directive (top) for
+##   Emacs users to give colour and improve
+##   readability...
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Track 1 Volume = CC 77, CHANNEL 1
 Track 2 Volume = CC 78, CHANNEL 1
@@ -29,12 +42,12 @@ Grain Stretch 6 = CC 17, CHANNEL 1
 Grain Stretch 7 = CC 20, CHANNEL 1
 
 Grain Size 1 = CC 3, CHANNEL 1
-Grain Size 1 = CC 6, CHANNEL 2
-Grain Size 1 = CC 9, CHANNEL 3
-Grain Size 1 = CC 12, CHANNEL 4
-Grain Size 1 = CC 15, CHANNEL 5
-Grain Size 1 = CC 18, CHANNEL 6
-Grain Size 1 = CC 21, CHANNEL 7
+Grain Size 2 = CC 6, CHANNEL 2
+Grain Size 3 = CC 9, CHANNEL 3
+Grain Size 4 = CC 12, CHANNEL 4
+Grain Size 5 = CC 15, CHANNEL 5
+Grain Size 6 = CC 18, CHANNEL 6
+Grain Size 7 = CC 21, CHANNEL 7
 
 Grain Duration 1 = CC 1, CHANNEL 2
 Grain Duration 2 = CC 4, CHANNEL 2
@@ -44,7 +57,7 @@ Grain Duration 5 = CC  13, CHANNEL 2
 Grain Duration 6 = CC 16, CHANNEL 2
 Grain Duration 7 = CC 19, CHANNEL 2
 
-FILTER TYPE 0-64 = Lowpass, 65-127 = High Pass
+## FILTER TYPE 0-64 = Lowpass, 65-127 = High Pass
 
 Filter Type 1 = CC 2, CHANNEL 2
 Filter Type 2 = CC 5, CHANNEL 2
@@ -103,7 +116,7 @@ Reverb Send 6 = CC 17, CHANNEL 4
 Reverb Send 7 = CC 20, CHANNEL 4
 
 
-AMBISONICS
+## AMBISONICS
 
 Azimuth 1 = CC 1, CHANNEL 5
 Azimuth 2 = CC 4, CHANNEL 5
