@@ -115,7 +115,6 @@ Reverb Send 5 = CC 14, CHANNEL 4
 Reverb Send 6 = CC 17, CHANNEL 4
 Reverb Send 7 = CC 20, CHANNEL 4
 
-
 ## AMBISONICS
 
 Azimuth 1 = CC 1, CHANNEL 5
@@ -126,7 +125,6 @@ Azimuth 5 = CC 13, CHANNEL 5
 Azimuth 6 = CC 16, CHANNEL 5
 Azimuth 7 = CC 19, CHANNEL 5
 
-
 Altitude 1 = CC 2, CHANNEL 5
 Altitude 2 = CC 5, CHANNEL 5
 Altitude 3 = CC 8, CHANNEL 5
@@ -135,7 +133,7 @@ Altitude 5 = CC 14, CHANNEL 5
 Altitude 6 = CC 17, CHANNEL 5
 Altitude 7 = CC 20, CHANNEL 5
 
-SNAPSHOT BUTTONS
+## SNAPSHOT BUTTONS
 
 Snapshot 1 = NOTE C#-2, CHANNEL 2
 Snapshot 2 = NOTE D-2, CHANNEL 2
